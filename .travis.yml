@@ -1,4 +1,6 @@
 language: ruby
+addons:
+  firefox: "latest"
 rvm: 2.3.3
 before_install:
   - "export DISPLAY=:99.0"
